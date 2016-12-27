@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.clicker20.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:weightSum="1"
+    android:background="@drawable/metall_fon_carapiny_poverhnost_18408_1920x1080">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp">
+
+        <TextView
+            android:text="@string/records"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stringOfRecord"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="@string/score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView10"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:layout_alignParentTop="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:text="@string/task_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionOfGame"
+        android:textSize="20sp"
+        android:layout_weight="0.49" />
+
+    <TextView
+        android:text="@string/coefficient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/coeffView"
+        android:gravity="center"
+        android:textColor="@color/orange_x1"
+        android:textSize="40sp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="349dp"
+        android:layout_weight="0.43">
+
+        <Button
+            android:layout_width="125dp"
+            android:id="@+id/howToPlay"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/instructions"
+            android:onClick="getInstructions"
+            android:layout_height="60dp"
+            android:background="@drawable/ironbtnswapdefault" />
+
+
+        <Button
+            android:text="@string/start"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:id="@+id/start"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ironbtnswapdefault" />
+
+        <Button
+            android:text="@string/setting"
+            android:layout_width="125dp"
+            android:id="@+id/settingButton"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="goToSetting"
+            android:layout_height="60dp"
+            android:background="@drawable/ironbtnswapdefault" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/clickButton"
+            android:background="@drawable/buttonswap"
+            android:layout_above="@+id/howToPlay"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="11dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:id="@+id/taskButt1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ironbtnswapdefault" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/taskButt3"
+            android:layout_below="@+id/taskButt1"
+            android:layout_alignLeft="@+id/taskButt1"
+            android:layout_alignStart="@+id/taskButt1"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/ironbtnswapdefault" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/taskButt4"
+            android:layout_alignTop="@+id/taskButt3"
+            android:layout_alignLeft="@+id/taskButt2"
+            android:layout_alignStart="@+id/taskButt2"
+            android:background="@drawable/ironbtnswapdefault" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/taskButt2"
+            android:layout_marginRight="17dp"
+            android:layout_marginEnd="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ironbtnswapdefault" />
+
+    </RelativeLayout>
+</LinearLayout>

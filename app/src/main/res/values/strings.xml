@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">BrainClick</string>
+    <string name="action_settings">Settings</string>
+    <string name="score">0</string>
+    <string name="task_string">Здесь будет вопрос.Приготовьтесь..</string>
+    <string name="score_name">счет:</string>
+    <string name="klick_button">кликай сюда</string>
+    <string name="instructions">Как играть?</string>
+    <string name="coefficient">x1</string>
+    <string name="start">Начать</string>
+    <string name="setting">Настройки</string>
+
+
+    <string-array name="questions">
+        <item>Млечный путь - это..</item>
+        <item>Туфелька-Инфузория - это..</item>
+        <item>Царь Петр первый какой по счету из рода Романовых?</item>
+        <item>Кто изобрел Джинсы?</item>
+        <item>Кто написал "Лунную сонату"?</item>
+        <item>Кто изобрел компьютер?</item>
+        <item>Создатель теории относительности?</item>
+        <item>Единица измерения "Нано" это..</item>
+        <item>Какой советско-российский фильм получил "Оскара"?</item>
+        <item>Первый российский автомобиль?</item>
+        <item>Кому принадлежит выражение «Зри в корень»? </item>
+        <item>В каком году было отменено крепостное право в России?</item>
+        <item>Кого на дуэли убил Дантес?</item>
+        <item>Что помогло Тесею выбраться из пещер Крита, когда он убил Минотавра?</item>
+        <item>Какое из своих произведений сжег Н. В. Гоголь?</item>
+    </string-array>
+
+
+    <string-array name="right_answer">
+        <item>Галактика</item>
+        <item>Простейший, одноклеточный организм</item>
+        <item>3-й</item>
+        <item>Джейкоб Девис</item>
+        <item>Бетховен</item>
+        <item>Чарльз Бэббидж</item>
+        <item>Энштейн</item>
+        <item>миллиардная часть</item>
+        <item>Москва слезам не верит</item>
+        <item>Руссобалт</item>
+        <item>Козьме Пруткову</item>
+        <item>1861</item>
+        <item>Пушкина</item>
+        <item>Клубок ниток</item>
+        isparavitt
+        <item>Второй том «Мертвые души»</item>
+    </string-array>
+
+    <string-array name="first_answer">
+        <item>Скопление звезд</item>
+        <item>Бактерия</item>
+        <item>1-ый</item>
+        <item>Левай Страусс</item>
+        <item>Бах</item>
+        <item>Билл Гейтс</item>
+        <item>Ньютон</item>
+        <item>миллионная часть</item>
+        <item>Кин-Дза-Дза</item>
+        <item>АМО</item>
+        <item>Карлу Марксу</item>
+        <item>1851</item>
+        <item>Багратиона</item>
+        <item>GPS навигатор</item>
+        <item>Второй том «Вий»</item>
+    </string-array>
+
+
+    <string-array name="second_ansewr">
+        <item>Парад планет</item>
+        <item>Вирус</item>
+        <item>2-ый</item>
+        <item>Джанни Версачи</item>
+        <item>Чайковский</item>
+        <item>Алан Тьюринг</item>
+        <item>Резерфорд</item>
+        <item>триллионная часть</item>
+        <item>Батальоны просят огня</item>
+        <item>ЗИС</item>
+        <item>Чарльзу Дарвину</item>
+        <item>1900</item>
+        <item>Эдмонта</item>
+        <item>Голоса с моря</item>
+        <item>Второй том «Шинель»</item>
+    </string-array>
+
+
+    <string-array name="third_answer">
+        <item>Солнечная система</item>
+        <item>Модная обувь</item>
+        <item>4-ый</item>
+        <item>Дольче Габбана</item>
+        <item>Шопен</item>
+        <item>Стив Джобс</item>
+        <item>Кьюри</item>
+        <item>квинтиллионная часть</item>
+        <item>Сталкер</item>
+        <item>Москвич</item>
+        <item>Петру Первому</item>
+        <item>1800</item>
+        <item>Ленского</item>
+        <item>Луч солнца</item>
+        <item>Второй том «Ревизор»</item>
+    </string-array>
+
+    <string-array name="spinnerOfTextSize">
+        <item>Обычный</item>
+        <item>Средний</item>
+        <item>Большой</item>
+    </string-array>
+
+
+
+
+
+    <string name="textOfInstr">Правила просты...После того как ты нажмешь кнопку Начать ,запуститься таймер на 60 секунд. Твоя задача накликать как можно больше, при этом я буду задавать тебе несложные вопросы.
+    если ты отвечаешь правильно - коэффициент кликов увеличивается, нет - уменьшается.</string>
+    <string name="back">назад</string>
+    <string name="records">Рекорд:0</string>
+</resources>
